@@ -93,6 +93,7 @@ viz(use.cntrl$Per_Plant, use.trt$Per_Plant, dat.use$Per_Plant, "Percent plant")
 # T-test comparison, time points averaged ---------------------------------
 
 t.test(avg.cntrl$focal.ht, avg.trt$focal.ht)
+t.test(avg.cntrl$focal.biom, avg.trt$focal.biom)
 t.test(avg.cntrl$neigh.ct, avg.trt$neigh.ct)
 t.test(avg.cntrl$per.litt, avg.trt$per.litt) # NS
 t.test(avg.cntrl$per.bare, avg.trt$per.bare) # NS
